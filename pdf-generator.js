@@ -10,7 +10,8 @@ async function generatePDF() {
 
     for (let i = 0; i < selectedTnTs.length; i++) {
         try {
-            const response = await fetch(`https://raw.githubusercontent.com/username/repository-name/main/${selectedTnTs[i]}`);
+            const response = await fetch(selectedTnTs[i]);
+            if (!response.ok) throw new Error(`Failed to fetch ${selectedTnTs[i]}`);
             const text = await response.text();
             pdf.text(`TnT ${i + 1}\n${text}`, 10, 10 + i * 50); // Add content with proper spacing
         } catch (error) {
