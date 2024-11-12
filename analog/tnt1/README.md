@@ -19,9 +19,9 @@ These bounces can lead to erratic behavior in digital systems, as the microcontr
 ## Block Diagram
 
 *Include your block diagram here, e.g., `block_diagram.png`:*
-```markdown
-![Block Diagram](block_diagram.png)
-```
+
+![Block Diagram](https://github.com/ethanlayton/TnTBetaHostPage/blob/main/analog/tnt1/Capture.PNG)
+
 
 ---
 
@@ -55,9 +55,10 @@ The image below illustrates the **raw signal** of a push button being pressed (w
 By using a combination of flip-flops and OR gates, the debounce filter captures the noisy signal from the button press at regular intervals, smoothing out fluctuations over time to provide an accurate and stable representation of the button press.
 
 *Include your results image here, e.g., `results.png`:*
-```markdown
-![Filtered Signal Example](results.png)
-```
+
+![Filtered Signal Example](https://github.com/ethanlayton/TnTBetaHostPage/blob/main/analog/tnt1/Capture1.PNG)
+
+
 
 ---
 
