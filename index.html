@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Generate PDF</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TnT Library</title>
 </head>
 <body>
-  <h1>Select TnTs to Generate a PDF</h1>
-  <form id="tnt-form">
-    <label><input type="checkbox" value="analog/tnt1/README.md"> TnT 1</label><br>
-    <label><input type="checkbox" value="analog/tnt2/README.md"> TnT 2</label><br>
-    <button type="button" onclick="generatePDF()">Generate PDF</button>
-  </form>
-  <script src="pdf-generator.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <h1>TnT Library</h1>
+    <p>Select the TnTs you want to include in the PDF:</p>
+    <form id="tnt-form">
+        <label><input type="checkbox" value="analog/tnt1/README.md"> TnT 1</label><br>
+        <label><input type="checkbox" value="analog/tnt2/README.md"> TnT 2</label><br>
+        <label><input type="checkbox" value="digital/tnt1/README.md"> TnT 3</label><br>
+        <label><input type="checkbox" value="digital/tnt2/README.md"> TnT 4</label><br>
+        <button type="button" onclick="generatePDF()">Generate PDF</button>
+    </form>
+    <script src="pdf-generator.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 </body>
 </html>
