@@ -40,3 +40,7 @@ Have questions or suggestions? Feel free to reach out:
 - Email: [your-email@example.com](mailto:your-email@example.com)
 - GitHub Issues: [Open an Issue](../../issues)
 
+## Download TnT's
+
+[Download TnT's](https://ethanlayton.github.io/TnTBetaHostPage/)
+
